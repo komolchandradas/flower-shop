@@ -1,1 +1,30 @@
+body{
+    margin:0;
+    padding:0;
+}
+.header{
+    display: flex;
+    background-color: rgba(229, 84, 115, 0.10);
+    padding: 30px 0 0 220px;
+    gap: 180px;
+}
+.header-img{
+    width: 500px;
+}
+.header-intro{
+    padding-top: 80px;
+    justify-content: center;
     
+}
+.header-intro-title{
+    font-size: 65px;
+}
+.header-intro-des{
+    font-size: 10px ;
+}
+.btn-primary{
+    padding: 15px 40px;
+    background-color: #E55473;
+    border: none;
+    border-radius:5px;
+}

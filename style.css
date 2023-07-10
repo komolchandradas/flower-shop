@@ -105,3 +105,26 @@ body{
     margin-right: 7px;
 
 }
+
+/*Footer area style */
+
+.footer-area{
+    background-color: black;
+    text-align: center;
+    padding: 100px 0;
+}
+.footer-des{
+    color:rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+}
+.primary-color{
+    color: #E55473;
+}
+.footer-title{
+    color: #FFF;
+    font-size: 48px;
+    margin: 0;
+}
+.footer-right{
+    color:rgba(255, 255, 255, 0.40);
+}

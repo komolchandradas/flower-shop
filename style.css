@@ -6,10 +6,10 @@ body{
 }
 .header{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     background-color: rgba(229, 84, 115, 0.10);
-    padding: 30px 50px 0 180px;
-    gap: 180px;
+    padding: 30px 0px 0 250px;
+    gap: 20%;
 }
 .header-img{
     width: 500px;
@@ -34,16 +34,77 @@ body{
     padding: 18px 40px;
     background-color: #E55473;
     border: none;
+    font-size: 20px;
     border-radius:5px;
     color: #FFF;
 }
+
+/*Features Style  */
+.features{
+    margin: 178px 250px;
+}
+.features .intro-des{
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
+}
+.features-flowers{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap:20px;
+}
+
+.pink-flower-1{
+    width: 464px;
+    height: 538px;
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+}
+.pink-flower-2{
+    width: 464px;
+    height: 538px;
+    background-color: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+}
+.pink-flower-3{
+    width: 464px;
+    height: 538px;
+    background-color: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
+}
+.features-flowers .pink-flower-1 img{
+    padding-top: 110px;
+}
+.features-flowers .pink-flower-2 img{
+    padding-top: 117px;
+}
+.features-flowers .pink-flower-3 img{
+    padding-top: 67px;
+}
+
+.pink-flower-des-2{
+    padding-top:50px ;
+    text-decoration: underline;
+    font-size: 24px;
+}
+.pink-flower-des-1{
+    text-decoration: underline;
+    font-size: 24px;
+}
+.pink-flower-des-3{
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+
 
 /*Hot deal section style */
 .hot-deal{
     display: flex;
     background-color: rgba(229, 84, 115, 0.05);
-    padding: 50px 100px;
-    justify-content: space-between;
+    gap:20%;
+    padding: 50px 200px;
+    /* justify-content: space-between; */
     
 }
 .hot-deal-intro{
@@ -63,28 +124,30 @@ body{
 /*instagram section*/
 
 .instagram{
-    margin: 50px 100px;
+    margin:128px 250px;
+}
+.intro{
     text-align: center;
-    margin-bottom: 100px;
 }
-.instagram .intro-des{
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-}
-.instagram .intro-title{
+.intro-title{
     font-size: 40px;
 }
+.intro-des{
+    margin-bottom: 40px;
+}
 .insta-flower{
+    text-align: center;
     display: flex;
-    gap: 15px;
     justify-content: center;
+    gap:15px;
 }
 .insta-flower img{
-    width: 300px;
+    width: 340px;
 }
 
+/*Deal Section*/
 .deal{
-    margin: 50px 100px;
+    margin: 128px 250px;
     text-align: center;
     justify-content: center;
     background-image: url('images/Rectangle\ 9.png');
@@ -102,6 +165,7 @@ body{
 .deal-form input[type="email"]{
     width:45%;
     padding: 18px;
+    font-size: 20px;
     border: none;
     border-radius: 5px;
     margin-right: 7px;
